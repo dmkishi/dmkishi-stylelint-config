@@ -1,0 +1,24 @@
+/* Exercises the config: custom properties first, ordered declarations, `@media`
+   placed directly after declarations, and a class name that would violate
+   `selector-class-pattern` were it not disabled. */
+
+:root {
+  --color-accent: #06c;
+  --space-md: 1rem;
+}
+
+.CamelCaseClass {
+  position: relative;
+  display: block;
+  margin: 0;
+  padding: var(--space-md);
+  color: var(--color-accent);
+
+  @media (width >= 48rem) {
+    padding: calc(var(--space-md) * 2);
+  }
+
+  & > .child {
+    display: inline;
+  }
+}
