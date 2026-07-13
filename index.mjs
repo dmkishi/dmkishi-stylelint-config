@@ -9,14 +9,10 @@ export default {
     'stylelint-config-clean-order',
   ],
   rules: {
-    /**
-     * Require an empty line before custom properties, except for the first one
-     * in a block, and ignore the rule between consecutive custom properties so
-     * variables can be grouped together without blank lines between them.
-     */
     'custom-property-empty-line-before': ['always', {
       except: [
         'first-nested',
+        'after-comment',
       ],
       ignore: [
         'after-custom-property',
