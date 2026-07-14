@@ -55,5 +55,9 @@ pnpm install
 
 Changelog
 --------------------------------------------------------------------------------
+### v0.1.0 (2026-7-13)
+- Add rule: ignore comments above custom properties.
+- Improve README.
+
 ### v0.0.0 (2026-7-10)
 - Initial release.

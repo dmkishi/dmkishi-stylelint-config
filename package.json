@@ -1,6 +1,6 @@
 {
   "name": "@dmkishi/stylelint-config",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "DM Kishi's custom stylelint config",
   "homepage": "https://github.com/dmkishi/dmkishi-stylelint-config",
   "author": "DM Kishi <dm.kishi@gmail.com>",
